@@ -5,8 +5,8 @@
 - learned about flexbox usage and orientation
 
 ### TODO
-- fill in info containers
-- fill in quote container
+- ~~fill in info containers~~
+- ~~fill in quote container~~
 - fix missing link tags in header
 
 
