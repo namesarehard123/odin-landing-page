@@ -73,15 +73,18 @@ html {
     color: #F9FAF8;
 }
 
-.hero-content .hero-btn {
+.signup-btn {
     color: #F9FAF8;
-    align-self: flex-start;
     font-size: 16px;
     padding: 8px 16px;
     background-color: #3882F6;
     font-weight: bold;
     border-style: none;
     border-radius: 6px;
+}
+
+.hero-content .hero-btn {  
+    align-self: flex-start;
 }
 
 /* flex ratio for the containers */
@@ -155,3 +158,34 @@ html {
     font-weight: bolder;
 }
 
+
+/* signup section */
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-box {
+    border-radius: 8px;
+    background-color: #3882F6;
+    display: flex;
+    padding: 48px 100px;
+    gap: 160px;
+}
+
+.signup-box .signup-title {
+    font-weight: bold;
+    font-size: 24px;
+    color: #F9FAF8; 
+}
+
+.signup-box .signup-text {
+    color: #F9FAF8;
+    margin-top: 12px;
+}
+
+.signup-container .signup-btn {
+    border-style: solid;
+    border-color: #F9FAF8; 
+}
