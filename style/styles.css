@@ -8,7 +8,7 @@ html {
     margin: 0;
     padding: 0;
     /*  Temp */
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 /* header part */
@@ -40,3 +40,55 @@ html {
     list-style: none;
 }
 
+/* ----- */
+/* hero */
+.hero {
+    height: 450px;
+    min-height: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.hero img {
+    height: 330px;
+}
+
+.hero-content {
+    height: 330px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.hero-content .hero-title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-content .hero-text {
+    color: #F9FAF8;
+}
+
+.hero-content .hero-btn {
+    color: #F9FAF8;
+    align-self: flex-start;
+    font-size: 16px;
+    padding: 8px 16px;
+    background-color: #3882F6;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 6px;
+}
+
+/* flex ratio for the containers */
+.hero,
+.info-container,
+.quote-container,
+.signup-container {
+    flex: 1 1 auto;
+    min-height: 450px;
+}
