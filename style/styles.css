@@ -92,3 +92,45 @@ html {
     flex: 1 1 auto;
     min-height: 450px;
 }
+
+/* Info area */
+.info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    row-gap: 32px;
+}
+
+.info-container .info-title {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.info-container .info-cards {
+    flex: 1;
+    display: flex;
+    gap: 48px;
+}
+
+.info-cards .info-card {
+    display: flex;
+    flex-direction: column;
+   row-gap: 16px;
+}
+
+.info-card .card-text {
+    text-align: center;
+    flex: 1;
+    width: 180px;
+}
+
+.info-container .card-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 6px;
+    border: 4px solid #3882F6;
+}
+
