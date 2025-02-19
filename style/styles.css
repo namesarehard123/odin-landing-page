@@ -189,3 +189,12 @@ html {
     border-style: solid;
     border-color: #F9FAF8; 
 }
+
+/* footer */
+.footer {
+    color: #F9FAF8;
+    display: flex;
+    padding: 24px;
+    justify-content: center;
+    align-items: center;
+}
