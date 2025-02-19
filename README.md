@@ -7,6 +7,7 @@
 ### TODO
 - fill in info containers
 - fill in quote container
+- fix missing link tags in header
 
 
 
